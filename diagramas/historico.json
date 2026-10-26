@@ -1,0 +1,31 @@
+{
+ "S2": {
+  "compromiso_h": 113.0,
+  "dias": {
+   "2026-10-23": {
+    "restante_h": 113.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 86.0,
+    "total_h": 113.0
+   },
+   "2026-10-24": {
+    "restante_h": 113.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 86.0,
+    "total_h": 113.0
+   },
+   "2026-10-25": {
+    "restante_h": 113.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 86.0,
+    "total_h": 113.0
+   },
+   "2026-10-26": {
+    "restante_h": 113.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 86.0,
+    "total_h": 113.0
+   }
+  }
+ }
+}
