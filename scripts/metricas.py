@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Burndown y burnup por sprint a partir de GitHub (TravelWrap).
 
-Convenciones (ver metricas/COMO-USAR.md):
+Convenciones (ver diagramas/COMO-USAR.md):
   - Sprint = milestone "S1".."S4". Fin = fecha del milestone; inicio = día siguiente al fin del anterior.
   - PBI   = issue cuyo título empieza por "PB-NN " (con milestone del sprint).
   - Tarea = issue cuyo título empieza por "PB-NN.x.y " (sprint: el suyo o el de su PBI).
@@ -10,7 +10,7 @@ Convenciones (ver metricas/COMO-USAR.md):
   - Puntos de historia: línea "Puntos de historia: 5" en el cuerpo de la PBI.
   - Hecho = issue cerrada (si se cierra como "not planned" sale del alcance).
 
-Histórico: metricas/historico.json guarda una foto por día. Los días pasados no se
+Histórico: diagramas/historico.json guarda una foto por día. Los días pasados no se
 reescriben, así que re-estimar o añadir tareas solo afecta desde ese día (la curva sube).
 Durante los primeros DIAS_PLANIFICACION días del sprint el compromiso (inicio de la
 línea ideal) se ajusta solo al total actual; después queda fijo.
@@ -36,7 +36,7 @@ TZ = ZoneInfo("Europe/Madrid")
 PRIMER_SPRINT = 2          # se empieza a medir en S2
 DIAS_PLANIFICACION = 2     # días iniciales en los que el compromiso aún se ajusta
 RAIZ = Path(__file__).resolve().parent.parent
-OUT = RAIZ / "metricas"
+OUT = RAIZ / "diagramas"
 HIST = OUT / "historico.json"
 
 RE_PBI = re.compile(r"^PB-(\d+)\s")
@@ -181,6 +181,7 @@ def graficas(sp, ini, fin, h, hoy):
 
 # ---------------------------------------------------------------- principal
 def main():
+    OUT.mkdir(parents=True, exist_ok=True)
     issues, milestones = cargar()
     hoy = date.fromisoformat(os.environ["HOY"]) if os.environ.get("HOY") else datetime.now(TZ).date()
     pbis, tareas = modelo(issues)
@@ -227,7 +228,7 @@ def main():
             f"### {sp} ({ini:%d/%m} - {fin:%d/%m}, {estado})\n\n"
             f"Quedan **{u['restante_h']:g} h** de {u['total_h']:g} h estimadas · "
             f"**{u['sp_hecho']:g} / {u['sp_objetivo']:g}** puntos de historia hechos\n\n"
-            f"![Burndown {sp}](metricas/burndown_{sp}.png)\n![Burnup {sp}](metricas/burnup_{sp}.png)\n")
+            f"![Burndown {sp}](diagramas/burndown_{sp}.png)\n![Burnup {sp}](diagramas/burnup_{sp}.png)\n")
 
     HIST.write_text(json.dumps(hist, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
 

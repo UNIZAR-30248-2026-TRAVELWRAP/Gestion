@@ -1,43 +1,50 @@
-# Métricas del sprint: cómo funcionan
+# Diagramas de burndown y burnup
 
-Las gráficas de **burndown** (horas estimadas que quedan) y **burnup** (puntos de historia hechos)
-de cada sprint se generan solas a partir de las issues. Se actualizan al crear, editar, cerrar,
-reabrir o cambiar de milestone una issue, y cada noche a las 23:50.
+En esta carpeta guardamos el **burndown** (horas estimadas que nos quedan) y el **burnup**
+(puntos de historia que hemos completado) de cada sprint. Los genera una GitHub Action a partir
+de nuestras issues: se actualizan cada vez que creamos, editamos, cerramos, reabrimos o cambiamos
+de milestone una issue, y además cada noche a las 23:50. Medimos desde el Sprint 2.
 
-## Convenciones
+## Nuestras convenciones
 
-| Qué | Dónde | Ejemplo |
+| Qué | Dónde lo indicamos | Ejemplo |
 |---|---|---|
 | Sprint | Milestone de la PBI (`S2`, `S3`, `S4`) | La fecha del milestone es el último día del sprint |
 | Puntos de historia | Línea en el cuerpo de la **PBI** | `Puntos de historia: 5` |
 | Horas estimadas | Línea en el cuerpo de cada **tarea** | `Estimación: 2,5 h` |
-| PBI sin tareas | Lleva su propia `Estimación` | `Estimación: 4,5 h` |
-| Hecho | Cerrar la issue | La PBI la cierra la PO al aceptarla |
-| Fuera del sprint | Cerrar como *Not planned* | Sale del alcance |
+| PBI sin tareas | La propia PBI lleva su `Estimación` | `Estimación: 4,5 h` |
+| Hecho | Cerramos la issue | La PO cierra la PBI cuando la acepta |
+| Fuera del sprint | La cerramos como *Not planned* | Sale del alcance |
 
-Las tareas se reconocen por el título (`PB-16.1.2 ...`) y pertenecen al sprint de su PBI.
-En el README aparece un aviso con las issues a las que les falte la estimación o los puntos.
+Las tareas se identifican por el título (`PB-16.1.2 ...`) y cuentan en el sprint de su PBI.
+Si a alguna issue le falta la estimación o los puntos, aparece en el README como pendiente.
 
-## Inicio de cada sprint (planificación)
+## Al empezar cada sprint
 
-1. Asignar el milestone a las PBIs del sprint y poner sus `Puntos de historia`.
-2. Crear las tareas con su `Estimación`.
-3. Durante los **2 primeros días** del sprint el compromiso (inicio de la línea ideal) se ajusta solo:
-   podéis añadir tareas y re-estimar sin que cuente como cambio de alcance.
+1. Asignamos el milestone a las PBIs del sprint y les ponemos sus `Puntos de historia`.
+2. Creamos las tareas con su `Estimación`.
+3. Durante los **2 primeros días** el compromiso (punto de partida de la línea ideal) se ajusta
+   solo, así que podemos añadir tareas y re-estimar sin que cuente como cambio de alcance.
 
-A partir del tercer día, añadir una tarea o subir una estimación hace que la curva **suba** ese día
-(es lo correcto en Scrum). Los días anteriores nunca se modifican.
+A partir del tercer día, si añadimos una tarea o subimos una estimación, la curva **sube** ese día.
+Los días anteriores no se modifican nunca.
 
-## Las horas son estimadas, no reales
+## Durante el sprint
 
-Si una tarea se estimó en 4 h y costó 8, el burndown baja 4 al cerrarla. No apuntéis horas reales aquí.
+- Cerramos cada tarea el mismo día que la terminamos, porque el diagrama usa la fecha de cierre.
+- Las horas son **estimadas**, no reales: si una tarea estimada en 4 h nos lleva 8, el burndown
+  baja 4 al cerrarla. Aquí no registramos horas reales.
 
-## Ajustes manuales (Actions → «Métricas Scrum» → Run workflow)
+## Ajustes manuales
 
-- **recomprometer = S3**: fija el inicio de la línea ideal al total de horas actual (si la planificación se alargó).
-- **reiniciar = S3**: borra el histórico de ese sprint y lo reconstruye con las fechas de cierre
-  (pierde los cambios de alcance registrados; solo para arreglar errores).
+Desde *Actions → Métricas Scrum → Run workflow*:
 
-## Recomendación
+- **recomprometer = S3**: fija el inicio de la línea ideal en el total de horas actual
+  (por si la planificación se alarga más de dos días).
+- **reiniciar = S3**: borra el histórico de ese sprint y lo reconstruye con las fechas de cierre.
+  Se pierden los cambios de alcance registrados, así que lo reservamos para corregir errores.
 
-Cerrad cada tarea el mismo día que la terminéis: la gráfica usa la fecha de cierre.
+## Archivos
+
+- `burndown_SX.png` y `burnup_SX.png`: diagramas de cada sprint.
+- `historico.json`: foto diaria del estado de cada sprint (no lo editamos a mano).
