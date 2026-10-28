@@ -2,7 +2,7 @@
 
 **Proyecto:** Travelwrap  
 **Periodicidad:** miércoles, de 19:00 a 20:00  
-**Participantes:** Daniel Blasco Labarta Berta Castillo Crespo y Adriana Sainz Sampedro  
+**Participantes:** Daniel Blasco Labarta, Berta Castillo Crespo y Adriana Sainz Sampedro  
 
 ## Calendario
 
@@ -10,7 +10,8 @@
 | --- | --- |
 | [5 de octubre de 2026](#acta-2026-10-05) | Seguimiento de S1 (práctica 2, entrega el 22 de octubre) |
 | [21 de octubre de 2026](#acta-2026-10-21) | Revisión final de S1 (entrega el 22 de octubre) |
-| [28 de octubre de 2026](#acta-2026-10-28) | Seguimiento de S2 (práctica 3, entrega el 5 de noviembre) |
+| [23 de octubre de 2026](#acta-2026-10-23) | Cierre de S1 e inicio de S2 |
+| [27 de octubre de 2026](#acta-2026-10-27) | Seguimiento de S2 (práctica 3, entrega el 5 de noviembre) |
 | [4 de noviembre de 2026](#acta-2026-11-04) | Revisión final de S2 (entrega el 5 de noviembre) |
 | [11 de noviembre de 2026](#acta-2026-11-11) | Seguimiento de S3 (práctica 4, entrega el 19 de noviembre) |
 | [18 de noviembre de 2026](#acta-2026-11-18) | Revisión final de S3 (entrega el 19 de noviembre) |
@@ -20,7 +21,7 @@
 
 ## Plantilla de cada reunión
 
-Copiar esta sección para añadir reuniones posteriores al calendario. En cada reunión, actualizar los apartados de dedicación, riesgos, requisitos, issues y objetivos.
+Copiar esta sección para añadir reuniones posteriores al calendario. En cada reunión, actualizar los apartados de riesgos, requisitos, issues y objetivos.
 
 ### [Fecha] — 19:00–20:00
   
@@ -30,31 +31,22 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### 1. Asuntos de trámite
 
 - **Temas tratados:**
 - **Decisiones:**
 
-#### 2. Dedicación semanal
-
-| Integrante | Dedicación prevista (h) | Dedicación realizada (h) | Desviaciones / comentarios |
-| --- | ---: | ---: | --- |
-| Adriana Sainz Sampedro |  |  |  |
-| Berta Castillo Crespo |  |  |  |
-| Daniel Blasco Labarta |  |  |  |
-
-#### 3. Riesgos
+#### 2. Riesgos
 
 | Riesgo | Probabilidad / impacto | Estado y medidas |
 | --- | --- | --- |
 |  |  |  |
 
-#### 4. Requisitos e issues
+#### 3. Requisitos e issues
 
 - **Requisitos completados:**
 - **Requisitos pendientes o bloqueados:**
@@ -62,7 +54,7 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 - **Issues pendientes o bloqueadas:**
 - **Bloqueos o dependencias:**
 
-#### 5. Objetivos para la semana siguiente
+#### 4. Objetivos para la semana siguiente
 
 | Objetivo / tarea | Responsable | Fecha objetivo |
 | --- | --- | --- |
@@ -87,10 +79,9 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### 1. Asuntos de trámite
 
@@ -101,21 +92,13 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 - **Decisiones:**
   - Se planifican menos horas para Adriana que para el resto del equipo y sus tareas se concentran al final del sprint.
 
-#### 2. Dedicación semanal
-
-| Integrante | Dedicación prevista (h) | Dedicación realizada (h) | Desviaciones / comentarios |
-| --- | ---: | ---: | --- |
-| Adriana Sainz Sampedro | 10 | — | Carga reducida por su ausencia; entrega de sus tareas hasta el 22 de octubre |
-| Berta Castillo Crespo | 27 | — | Inicio del sprint |
-| Daniel Blasco Labarta | 27 | — | Inicio del sprint |
-
-#### 3. Riesgos
+#### 2. Riesgos
 
 | Riesgo | Probabilidad / impacto | Estado y medidas |
 | --- | --- | --- |
 | Retraso en las entregas de Adriana por su ausencia y otros compromisos | Alta / medio | Abierto. Se le asigna menos carga; Adriana se compromete a entregar sus tareas antes del cierre del sprint (22 de octubre) |
 
-#### 4. Requisitos e issues
+#### 3. Requisitos e issues
 
 - **Requisitos completados:** ninguno (inicio del sprint).
 - **Requisitos pendientes o bloqueados:** todos los del Sprint 1, pendientes de empezar.
@@ -123,7 +106,7 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 - **Issues pendientes o bloqueadas:** las del Sprint 1, ya repartidas en el plan.
 - **Bloqueos o dependencias:** las pantallas de viajes dependen de la base de la PWA y del esquema inicial de Supabase (PB-01).
 
-#### 5. Objetivos para la semana siguiente
+#### 4. Objetivos para la semana siguiente
 
 | Objetivo / tarea | Responsable | Fecha objetivo |
 | --- | --- | --- |
@@ -147,10 +130,9 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### 1. Asuntos de trámite
 
@@ -162,15 +144,7 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
   - Adriana pondrá GitHub en orden esa misma noche: subirá su código al Backend y al Frontend (le faltan algunos tests) y cerrará sus issues antes de la entrega.
   - Se mantiene el reparto del Sprint 2 previsto en el plan.
 
-#### 2. Dedicación semanal
-
-| Integrante | Dedicación prevista (h) | Dedicación realizada (h) | Desviaciones / comentarios |
-| --- | ---: | ---: | --- |
-| Adriana Sainz Sampedro | 10 | 12 | Trabajo concentrado al final del sprint, como se acordó el 5 de octubre, sumando la noche del 21 |
-| Berta Castillo Crespo | 27 | [completar] | - |
-| Daniel Blasco Labarta | 27 | [completar] | - |
-
-#### 3. Riesgos
+#### 2. Riesgos
 
 | Riesgo | Probabilidad / impacto | Estado y medidas |
 | --- | --- | --- |
@@ -179,7 +153,7 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 | Poco margen antes de la entrega del 22 de octubre | Media / alto | Abierto. Adriana asegura que llega a tiempo; se revisará todo la mañana del 22 |
 | Carga del Sprint 2 concentrada en pocos días | Media / medio | Abierto. Se hará seguimiento en la reunión del 28 de octubre |
 
-#### 4. Requisitos e issues
+#### 3. Requisitos e issues
 
 - **Requisitos completados en S1:**
   - Berta: pipeline CI/CD y servidor Socket.io (PB-02), diseño del botón de Google (PB-03), crear un viaje (PB-07) y diseño de «Unirse a viaje» (PB-09).
@@ -188,10 +162,10 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 - **Issues completadas:** las de PB-02 a PB-07, PB-09 y PB-11; las de Adriana y las restantes se cierran entre esa noche y la mañana del 22.
 - **Bloqueos o dependencias:** ninguno.
 
-#### 5. Objetivos para la semana siguiente (Sprint 2)
+#### 4. Objetivos para la semana siguiente (Sprint 2)
 
-| Objetivo / tarea |Fecha objetivo |
-| --- | --- | --- |
+| Objetivo / tarea | Fecha objetivo |
+| --- | --- |
 | Añadir actividad (PB-17) | 27 de octubre |
 | Crear una votación (PB-18) | 29 de octubre |
 | Registrar un gasto (PB-23) | 3 de noviembre |
@@ -208,31 +182,119 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Acuerdos y cierre
 
 - **Acuerdos:** Adriana sube su trabajo y cierra sus issues esa noche; el Sprint 1 se entrega el 22 de octubre; el Sprint 2 empieza el 23 de octubre con el reparto del plan.
-- **Próxima reunión:** miércoles, 28 de octubre de 2026, de 19:00 a 20:00.
+- **Próxima reunión:** viernes, 23 de octubre de 2026 (cierre del Sprint 1).
 
-<a id="acta-2026-10-28"></a>
-### Miércoles, 28 de octubre de 2026 — 19:00–20:00
+<a id="acta-2026-10-23"></a>
+### Viernes, 23 de octubre de 2026 — 17:00-18:00
 
-**Asistentes:** Adriana D. Sainz Sampedro / Berta Castillo Crespo / Daniel Blasco Labarta  
+**Asistentes:** Adriana Sainz Sampedro, Berta Castillo Crespo y Daniel Blasco Labarta  
+**Ausencias y justificación:** ninguna.  
+**Hito:** Cierre de S1 — práctica 2 (entregada el 22 de octubre) e inicio de S2
+
+#### Orden del día
+
+1. Asuntos de trámite.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Retrospectiva de S1 y objetivos de S2.
+
+#### 1. Asuntos de trámite
+
+- **Temas tratados:**
+  - Cierre del Sprint 1, entregado el 22 de octubre.
+  - Arranque del Sprint 2 (del 23 de octubre al 5 de noviembre). Objetivo del sprint: viajar en grupo (invitar, unirse, votar y planificar la agenda) y empezar con los gastos compartidos.
+- **Decisiones:**
+  - Se mantiene el reparto del Sprint 2 previsto en el plan.
+
+
+#### 2. Riesgos
+
+| Riesgo | Probabilidad / impacto | Estado y medidas |
+| --- | --- | --- |
+| Retraso en las entregas de Adriana | Alta / medio | Cerrado. Su trabajo se subió y sus issues se cerraron antes de la entrega |
+| Las políticas de seguridad (RLS) nuevas no estén aplicadas en Supabase | Media / alto | Abierto. Cada vez que cambien los scripts SQL hay que ejecutarlos en Supabase |
+| Carga del Sprint 2 concentrada en pocos días | Media / medio | Abierto. Se revisa en la reunión de seguimiento |
+
+#### 3. Requisitos e issues
+
+- **Requisitos completados en S1:** PB-01 a PB-13 (acceso a la app y gestión básica de viajes), detallados en el acta del 21 de octubre.
+- **Requisitos pendientes o bloqueados:** ninguno del Sprint 1.
+- **Issues completadas:** todas las del milestone S1.
+- **Bloqueos o dependencias:** ninguno.
+
+#### 4. Retrospectiva de S1 y objetivos de S2
+
+- **Qué ha ido bien:** La gestión de Github, la comunicación y mitigación de riesgos.
+- **Qué mejorar:** subir el trabajo a GitHub y cerrar las issues a medida que se termina cada tarea, y no al final del sprint. Arreglar los fallos de SonarQube de la CI
+
+| Objetivo / tarea | Responsable | Fecha objetivo (max) |
+| --- | --- | --- |
+| Añadir actividad (PB-17) | Daniel | 27 de octubre |
+| Votar y ver resultados en tiempo real (PB-19) | Berta | 28 de octubre |
+| Ver la agenda del día (PB-16) | Daniel | 29 de octubre |
+| Crear una votación (PB-18) | Berta | 29 de octubre |
+| Cerrar una votación (PB-20) | Berta | 29 de octubre |
+| Fijar destino ganador en el viaje (PB-21) | Berta | 2 de noviembre |
+| Editar y eliminar actividad (PB-22) | Daniel | 2 de noviembre |
+| Registrar un gasto (PB-23) | Adriana | 3 de noviembre |
+| Ver historial de gastos (PB-24) | Adriana | 4 de noviembre |
+| Ver balance de cada miembro (PB-25) | Adriana | 4 de noviembre |
+| Geolocalizar la dirección de una actividad (PB-26) | Daniel | 4 de noviembre |
+| Compilar la app y desplegarla (PB-48) | Adriana | 4 de noviembre |
+| Actualizar GitHub y documentación del proyecto (PB-49 y PB-50) | Berta y Adriana | 4 de noviembre |
+
+#### Acuerdos y cierre
+
+- **Acuerdos:** se da por cerrado el Sprint 1 y empieza el Sprint 2 con el reparto del plan.
+- **Próxima reunión:** martes, 27 de octubre de 2026, de 22:00 a 23:00.
+
+<a id="acta-2026-10-27"></a>
+### Martes, 27 de octubre de 2026 — 22:00–23:00
+
+**Asistentes:** Adriana Sainz Sampedro, Berta Castillo Crespo y Daniel Blasco Labarta  
+**Ausencias y justificación:** ninguna.  
 **Hito:** Seguimiento de S2 — práctica 3 (entrega: 5 de noviembre)
 
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Marcaje de objetivos para la semana siguiente.
 
-#### Seguimiento y acuerdos
+#### 1. Asuntos de trámite
 
-- **Asuntos de trámite / decisiones:**
-- **Dedicación semanal (prevista / realizada por integrante):**
-- **Riesgos y medidas:**
-- **Requisitos completados / pendientes:**
-- **Issues completadas / pendientes / bloqueadas:**
-- **Objetivos para la semana siguiente (responsable y fecha):**
-- **Acuerdos:**
+- **Temas tratados:**
+  - Adriana propone reestructurar el Sprint 2: adelantar al Sprint 2 el resto de los gastos (PB-28, PB-29 y PB-37) y reequilibrar los puntos de historia entre los tres.
+  - Se acuerdan unas plantillas para la descripción y el cierre de las issues y sub-issues.
+  - Se plantea un flujo para generar automáticamente los diagramas de seguimiento (burndown y burnup).
+  - La comprobación de SonarQube de la integración continua está fallando.
+- **Decisiones:**
+  - Se mantiene la planificación inicial del Sprint 2: el equipo tiene poca experiencia estimando con puntos de historia y la disponibilidad es limitada. PB-28, PB-29 y PB-37 siguen en el Sprint 3, y sus issues vuelven al milestone S3.
+  - Las issues se describen y se cierran con las plantillas de `.github/ISSUE_TEMPLATE/` y `calidad/plantilla_cierre_issues.md`.
+
+#### 2. Requisitos e issues
+
+Situación en GitHub al final del 27 de octubre:
+
+- **Requisitos completados:**
+  - Daniel: añadir actividad (PB-17).
+  - Berta: actualizar la documentación del proyecto (PB-50).
+- **Requisitos en curso:**
+  - Daniel: ver la agenda del día (PB-16), editar y eliminar actividad (PB-22) y geolocalizar la dirección de una actividad (PB-26) tienen el código, la documentación y las pruebas subidos al Backend y al Frontend; falta cerrar sus issues. Además ha subido mejoras del itinerario y de las actividades fuera del plan (MEJ-01 a MEJ-18).
+  - Berta: crear una votación (PB-18), votar y ver resultados en tiempo real (PB-19), cerrar una votación (PB-20) y fijar el destino ganador (PB-21) tienen subidos las pantallas, el WebSocket de votaciones y sus pruebas; las votaciones solo se pueden cerrar cuando han votado todos los miembros.
+  - Adriana: registrar un gasto (PB-23) tiene en el Backend las tablas, las políticas RLS y el endpoint para crear un gasto; faltan la pantalla, la documentación y las pruebas.
+- **Requisitos sin empezar:** ver historial de gastos (PB-24), ver balance de cada miembro (PB-25), compilar y desplegar la app (PB-48) y actualizar GitHub (PB-49).
+- **Issues completadas:**
+  - PB-17 (#82) y sus sub-issues #253, #254, #255, #256 y #257.
+  - PB-23.1.2 (#279).
+  - PB-50 (#324).
+- **Issues pendientes:** el resto de las PBI del Sprint 2 y sus sub-issues. La sub-issue PB-17.1.4 está duplicada (#256 y #257).
+- **Bloqueos o dependencias:** el Quality Gate de SonarQube falla en la CI del Backend porque no recibía el informe de cobertura y por el CORS abierto. El arreglo se sube esa misma noche; falta que pasen los tests de gastos.
+
+
+#### Acuerdos y cierre
+
+- **Acuerdos:** se conserva la planificación inicial del Sprint 2; se adoptan las plantillas de issues y sub-issues; se analizará el fallo de SonarQube en la CI.
+- **Próxima reunión:** miércoles, 4 de noviembre de 2026, de 19:00 a 20:00.
 
 <a id="acta-2026-11-04"></a>
 ### Miércoles, 4 de noviembre de 2026 — 19:00–20:00
@@ -243,15 +305,13 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### Seguimiento y acuerdos
 
 - **Asuntos de trámite / decisiones:**
-- **Dedicación semanal (prevista / realizada por integrante):**
 - **Riesgos y medidas:**
 - **Requisitos completados / pendientes:**
 - **Issues completadas / pendientes / bloqueadas:**
@@ -266,15 +326,13 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### Seguimiento y acuerdos
 
 - **Asuntos de trámite / decisiones:**
-- **Dedicación semanal (prevista / realizada por integrante):**
 - **Riesgos y medidas:**
 - **Requisitos completados / pendientes:**
 - **Issues completadas / pendientes / bloqueadas:**
@@ -289,15 +347,13 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### Seguimiento y acuerdos
 
 - **Asuntos de trámite / decisiones:**
-- **Dedicación semanal (prevista / realizada por integrante):**
 - **Riesgos y medidas:**
 - **Requisitos completados / pendientes:**
 - **Issues completadas / pendientes / bloqueadas:**
@@ -312,15 +368,13 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### Seguimiento y acuerdos
 
 - **Asuntos de trámite / decisiones:**
-- **Dedicación semanal (prevista / realizada por integrante):**
 - **Riesgos y medidas:**
 - **Requisitos completados / pendientes:**
 - **Issues completadas / pendientes / bloqueadas:**
@@ -335,15 +389,13 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente.
 
 #### Seguimiento y acuerdos
 
 - **Asuntos de trámite / decisiones:**
-- **Dedicación semanal (prevista / realizada por integrante):**
 - **Riesgos y medidas:**
 - **Requisitos completados / pendientes:**
 - **Issues completadas / pendientes / bloqueadas:**
@@ -359,15 +411,13 @@ Copiar esta sección para añadir reuniones posteriores al calendario. En cada r
 #### Orden del día
 
 1. Asuntos de trámite.
-2. Revisión de la dedicación semanal.
-3. Monitorización de riesgos.
-4. Seguimiento de requisitos e issues completadas y pendientes.
-5. Marcaje de objetivos para la semana siguiente y retrospectiva de S4.
+2. Monitorización de riesgos.
+3. Seguimiento de requisitos e issues completadas y pendientes.
+4. Marcaje de objetivos para la semana siguiente y retrospectiva de S4.
 
 #### Seguimiento y acuerdos
 
 - **Asuntos de trámite / decisiones:**
-- **Dedicación semanal (prevista / realizada por integrante):**
 - **Riesgos abiertos y medidas:**
 - **Requisitos completados / pendientes:**
 - **Issues completadas / pendientes / bloqueadas:**
