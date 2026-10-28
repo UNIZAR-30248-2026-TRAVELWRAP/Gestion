@@ -13,7 +13,7 @@ de milestone una issue, y además cada noche a las 23:50. Medimos desde el Sprin
 | Puntos de historia | Línea en el cuerpo de la **PBI** | `Puntos de historia: 5` |
 | Horas estimadas | Línea en el cuerpo de cada **tarea** | `Estimación: 2,5 h` |
 | PBI sin tareas | La propia PBI lleva su `Estimación` | `Estimación: 4,5 h` |
-| Hecho | Cerramos la issue | La PO cierra la PBI cuando la acepta |
+| Hecho | Cerramos la issue | El desarrollador cierra la PBI cuando cumple la DoD |
 | Fuera del sprint | La cerramos como *Not planned* | Sale del alcance |
 
 Las tareas se identifican por el título (`PB-16.1.2 ...`) y cuentan en el sprint de su PBI.
