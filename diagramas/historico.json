@@ -1,4 +1,117 @@
 {
+ "S1": {
+  "compromiso_h": 82.5,
+  "dias": {
+   "2026-10-05": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-06": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-07": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-08": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-09": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-10": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-11": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-12": {
+    "restante_h": 82.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-13": {
+    "restante_h": 52.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-14": {
+    "restante_h": 52.5,
+    "sp_hecho": 0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-15": {
+    "restante_h": 34.5,
+    "sp_hecho": 10.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-16": {
+    "restante_h": 34.5,
+    "sp_hecho": 10.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-17": {
+    "restante_h": 34.5,
+    "sp_hecho": 10.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-18": {
+    "restante_h": 34.5,
+    "sp_hecho": 10.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-19": {
+    "restante_h": 34.5,
+    "sp_hecho": 10.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-20": {
+    "restante_h": 34.0,
+    "sp_hecho": 38.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-21": {
+    "restante_h": 30.5,
+    "sp_hecho": 38.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   },
+   "2026-10-22": {
+    "restante_h": 0,
+    "sp_hecho": 67.0,
+    "sp_objetivo": 75.0,
+    "total_h": 82.5
+   }
+  }
+ },
  "S2": {
   "compromiso_h": 75.5,
   "dias": {
