@@ -2,7 +2,8 @@
 """Burndown y burnup por sprint a partir de GitHub (TravelWrap).
 
 Convenciones (ver diagramas/COMO-USAR.md):
-  - Sprint = milestone "S1".."S4". Fin = fecha del milestone; inicio = día siguiente al fin del anterior.
+  - Sprint = milestone "S1".."S4". Fin = fecha del milestone; inicio = día siguiente al fin del anterior
+    (el del primer sprint, que no tiene anterior, es INICIO_PRIMER_SPRINT).
   - PBI   = issue cuyo título empieza por "PB-NN " (con milestone del sprint).
   - Tarea = issue cuyo título empieza por "PB-NN.x.y " (sprint: el suyo o el de su PBI).
   - Horas estimadas: línea "Estimación: 2.5 h" en el cuerpo de la tarea.
@@ -33,7 +34,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 TZ = ZoneInfo("Europe/Madrid")
-PRIMER_SPRINT = 2          # se empieza a medir en S2
+PRIMER_SPRINT = 1          # se empieza a medir en S1
+# El primer sprint no tiene uno anterior del que sacar su inicio: empieza el día de arranque del proyecto
+INICIO_PRIMER_SPRINT = date(2026, 10, 5)
 DIAS_PLANIFICACION = 2     # días iniciales en los que el compromiso aún se ajusta
 RAIZ = Path(__file__).resolve().parent.parent
 OUT = RAIZ / "diagramas"
@@ -91,8 +94,12 @@ def sprints_de(milestones):
             fines[int(k.group(1))] = dia(m["due_on"])
     res = {}
     for n in sorted(fines):
-        if n >= PRIMER_SPRINT and n - 1 in fines:
+        if n < PRIMER_SPRINT:
+            continue
+        if n - 1 in fines:
             res[f"S{n}"] = (fines[n - 1] + timedelta(1), fines[n])
+        elif n == PRIMER_SPRINT:
+            res[f"S{n}"] = (INICIO_PRIMER_SPRINT, fines[n])
     return res
 
 
