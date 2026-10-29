@@ -25,7 +25,7 @@ _Actualizado automáticamente el 30/10/2026 00:07._
 
 ### S2 (23/10 - 05/11, en curso)
 
-Quedan **38 h** de 75.5 h estimadas · **27 / 58** puntos de historia hechos
+Quedan **37 h** de 75.5 h estimadas · **27 / 58** puntos de historia hechos
 
 ![Burndown S2](diagramas/burndown_S2.png)
 ![Burnup S2](diagramas/burnup_S2.png)
