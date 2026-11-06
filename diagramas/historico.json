@@ -202,13 +202,13 @@
   }
  },
  "S3": {
-  "compromiso_h": 0,
+  "compromiso_h": 75.0,
   "dias": {
    "2026-11-06": {
-    "restante_h": 0,
+    "restante_h": 75.0,
     "sp_hecho": 0,
-    "sp_objetivo": 28.0,
-    "total_h": 0
+    "sp_objetivo": 85.0,
+    "total_h": 75.0
    }
   }
  }
