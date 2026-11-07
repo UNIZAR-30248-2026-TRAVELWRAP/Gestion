@@ -25,7 +25,7 @@ _Actualizado automáticamente el 07/11/2026 11:50._
 
 ### S3 (06/11 - 19/11, en curso)
 
-Quedan **71.25 h** de 75 h estimadas · **0 / 85** puntos de historia hechos
+Quedan **70.25 h** de 75 h estimadas · **0 / 85** puntos de historia hechos
 
 ![Burndown S3](diagramas/burndown_S3.png)
 ![Burnup S3](diagramas/burnup_S3.png)
