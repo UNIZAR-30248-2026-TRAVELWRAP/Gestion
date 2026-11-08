@@ -11,7 +11,7 @@ Toda PBI pasa por una revisión de código antes de cerrarse. El objetivo es enc
 ## Cuándo y cómo
 
 1. Cuando el código de la PBI está terminado y su CI está en verde, la persona autora pide la revisión.
-2. Quien revisa lo hace en un plazo de **2 días laborables** y deja sus comentarios al autor.
+2. Quien revisa lo hace en un plazo de **2 días laborables** y se lo comenta al autor.
 3. Cada comentario puede ser:
    - **Bloqueante:** hay que corregirlo antes de cerrar la PBI (un error, una regla incumplida, falta una prueba...).
    - **Sugerencia:** mejora opcional. La persona autora decide si la aplica.

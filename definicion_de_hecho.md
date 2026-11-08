@@ -17,7 +17,7 @@ Un elemento del Product Backlog (PBI) se considera **Hecho**, y su issue se pued
 
 ## Aplicación
 
-- **Quién la comprueba:** la persona autora rellena la lista y quien revisa el código la confirma. La issue solo la cierra quien revisa.
+- **Quién la comprueba:** la persona autora rellena la lista y quien revisa el código la confirma. La issue solo la cierra el autor tras la aprobación del revisor.
 - **Criterios que no aplican:** si un criterio no tiene sentido para una PBI (por ejemplo, Documentación en una PBI solo de interfaz), no se aplica. No se puede saltar un criterio solo por falta de tiempo.
 - **Si no se cumple:** la PBI no está hecha y no cuenta como completada en el sprint. La issue vuelve a «En curso» con la lista de lo que falta.
 - **Revisión de la definición:** se revisa en la retrospectiva de cada sprint. Los cambios se acuerdan en la reunión, quedan en el acta y se aplican a las PBIs que empiecen después.
