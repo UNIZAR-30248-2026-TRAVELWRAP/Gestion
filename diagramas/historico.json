@@ -291,13 +291,19 @@
   }
  },
  "S4": {
-  "compromiso_h": 22.75,
+  "compromiso_h": 57.0,
   "dias": {
    "2026-11-20": {
     "restante_h": 22.75,
     "sp_hecho": 0,
     "sp_objetivo": 31.0,
     "total_h": 22.75
+   },
+   "2026-11-21": {
+    "restante_h": 57.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 79.0,
+    "total_h": 57.0
    }
   }
  }
