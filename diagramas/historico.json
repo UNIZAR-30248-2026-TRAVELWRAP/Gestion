@@ -289,5 +289,16 @@
     "total_h": 75.0
    }
   }
+ },
+ "S4": {
+  "compromiso_h": 0,
+  "dias": {
+   "2026-11-20": {
+    "restante_h": 0,
+    "sp_hecho": 0,
+    "sp_objetivo": 0,
+    "total_h": 0
+   }
+  }
  }
 }
