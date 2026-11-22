@@ -269,6 +269,47 @@
     "sp_hecho": 67.0,
     "sp_objetivo": 85.0,
     "total_h": 75.0
+   },
+   "2026-11-17": {
+    "restante_h": 12.25,
+    "sp_hecho": 67.0,
+    "sp_objetivo": 85.0,
+    "total_h": 75.0
+   },
+   "2026-11-18": {
+    "restante_h": 4.75,
+    "sp_hecho": 72.0,
+    "sp_objetivo": 85.0,
+    "total_h": 75.0
+   },
+   "2026-11-19": {
+    "restante_h": 0,
+    "sp_hecho": 85.0,
+    "sp_objetivo": 85.0,
+    "total_h": 75.0
+   }
+  }
+ },
+ "S4": {
+  "compromiso_h": 57.0,
+  "dias": {
+   "2026-11-20": {
+    "restante_h": 57.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 79.0,
+    "total_h": 57.0
+   },
+   "2026-11-21": {
+    "restante_h": 57.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 79.0,
+    "total_h": 57.0
+   },
+   "2026-11-22": {
+    "restante_h": 57.0,
+    "sp_hecho": 0,
+    "sp_objetivo": 79.0,
+    "total_h": 57.0
    }
   }
  }
