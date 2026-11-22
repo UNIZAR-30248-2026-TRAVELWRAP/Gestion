@@ -30,6 +30,8 @@ Capturas de las pantallas del prototipo de TravelWrap en Figma Make, agrupadas p
 | Gastos | Detalle del gasto (modificar) | [detalle-del-gasto-modificar.png](05-gastos/detalle-del-gasto-modificar.png) | PB-37 |
 | Gastos | Detalle del gasto (eliminar) | [detalle-del-gasto-eliminar-confirmacion.png](05-gastos/detalle-del-gasto-eliminar-confirmacion.png) | PB-37 |
 | Documentos y tareas | Cartera de Documentos | [cartera-de-documentos.png](06-documentos-y-tareas/cartera-de-documentos.png) | PB-30, PB-31, PB-46 |
+| Documentos y tareas | Cartera de Documentos (Escanear con OCR) | [cartera-escanear-ocr.png](06-documentos-y-tareas/cartera-escanear-ocr.png) | PB-55 |
+| Documentos y tareas | Escanear documento (OCR) | [escanear-documento-ocr.png](06-documentos-y-tareas/escanear-documento-ocr.png) | PB-55 |
 | Documentos y tareas | Lista de Tareas | [lista-de-tareas.png](06-documentos-y-tareas/lista-de-tareas.png) | PB-41 |
 | Chat y galería | Chat | [chat.png](07-chat-y-galeria/chat.png) | PB-40 |
 | Chat y galería | Galería | [galeria.png](07-chat-y-galeria/galeria.png) | PB-42 |
