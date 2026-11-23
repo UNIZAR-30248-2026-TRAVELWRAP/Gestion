@@ -21,7 +21,7 @@ Repositorio para la gestión del proyecto, como el seguimiento de hitos y docume
 <!-- METRICAS:START -->
 ## Métricas del sprint
 
-_Actualizado automáticamente el 23/11/2026 21:53._
+_Actualizado automáticamente el 23/11/2026 21:56._
 
 ### S4 (20/11 - 03/12, en curso)
 
@@ -51,4 +51,8 @@ Quedan **0 h** de 82.5 h estimadas · **67 / 75** puntos de historia hechos
 ![Burndown S1](diagramas/burndown_S1.png)
 ![Burnup S1](diagramas/burnup_S1.png)
 
+
+**Pendiente de estimar:**
+
+- S4: sin «Estimación: X h» → #489
 <!-- METRICAS:END -->
