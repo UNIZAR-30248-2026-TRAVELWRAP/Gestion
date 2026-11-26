@@ -21,7 +21,7 @@ Repositorio para la gestión del proyecto, como el seguimiento de hitos y docume
 <!-- METRICAS:START -->
 ## Métricas del sprint
 
-_Actualizado automáticamente el 25/11/2026 06:04._
+_Actualizado automáticamente el 26/11/2026 05:29._
 
 ### S4 (20/11 - 03/12, en curso)
 
